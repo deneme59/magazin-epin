@@ -29,6 +29,7 @@ header .logo {
 .products {
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -39,6 +40,12 @@ header .logo {
     width: 250px;
     text-align: center;
     border-radius: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .buy-btn {
